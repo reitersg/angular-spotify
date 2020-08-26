@@ -1,0 +1,8 @@
+@import "../../styles.scss";
+
+mat-toolbar {
+  padding-left: 40px;
+  z-index: -1 !important;
+  box-shadow: 0 4px 2px -2px #e0e0e0;
+  background-color: $primary !important;
+}

@@ -1,0 +1,25 @@
+<mat-toolbar color="primary">
+  <nav>
+    <a
+      class="home-link"
+      mat-button
+      [routerLink]="['/']"
+      routerLinkActive="router-link-active"
+    >
+      <mat-icon>home</mat-icon>
+      <span style="padding-left: 10px;">Spotify App</span>
+    </a>
+    <a
+      mat-button
+      [routerLink]="['/song-artist']"
+      routerLinkActive="router-link-active"
+      >Song Artist Graph
+    </a>
+    <a
+      mat-button
+      [routerLink]="['/feature-artist']"
+      routerLinkActive="router-link-active"
+      >Feature Artist Graph
+    </a>
+  </nav>
+</mat-toolbar>
